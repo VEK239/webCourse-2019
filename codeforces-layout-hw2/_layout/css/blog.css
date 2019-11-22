@@ -1,0 +1,55 @@
+.title {
+    font-size: 1.3rem;
+    color: #3B5998;
+    font-weight: bold;
+}
+
+.information {
+    font-size: 0.8rem;
+    color: #939393;
+}
+
+main .body {
+    font-size: 0.9rem;
+    border-left: 5px solid #d4d4d4;
+    padding-left: 10px;
+}
+
+.attachment {
+    font-size: 0.7rem;
+    color: #939393;
+    padding-left: 0;
+}
+
+.attachment li {
+    padding-left: 20px;
+    line-height: 1.5rem;
+    background: url("../img/paperclip-16x16.png") 2px 2px no-repeat;
+}
+
+main .footer {
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    line-height: 1.5rem;
+}
+
+main .footer .left {
+    display: inline;
+}
+
+main .footer .right {
+    display: inline;
+    padding-right: 3px;
+    float: right;
+    /*padding-top: 3px;*/
+}
+
+main .footer .right img {
+    padding-top: 5px;
+}
+.positive-score {
+    vertical-align: 3px;
+    font-size: 1.1rem;
+    color: darkgreen;
+    font-weight: bold;
+}

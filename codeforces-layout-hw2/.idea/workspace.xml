@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba6dcef7-f819-49ff-a6e7-389ba8ab1271" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1R6PPs3pmFzB7u8jM3J0w0mDn59" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lizzka239\IdeaProjects\codeforces-layout\2-1-codeforces-layout-search" />
+      <recent name="C:\Users\lizzka239\IdeaProjects\codeforces-layout\_layout\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba6dcef7-f819-49ff-a6e7-389ba8ab1271" name="Default Changelist" comment="" />
+      <created>1568984551475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568984551475</updated>
+      <workItem from="1568984552803" duration="9604000" />
+      <workItem from="1569338933311" duration="12982000" />
+      <workItem from="1569418041296" duration="4693000" />
+      <workItem from="1569485963131" duration="4864000" />
+      <workItem from="1569567691276" duration="1294000" />
+      <workItem from="1569580976176" duration="198000" />
+      <workItem from="1569942504675" duration="2525000" />
+      <workItem from="1569999398364" duration="5249000" />
+      <workItem from="1570109744751" duration="1711000" />
+      <workItem from="1570460989214" duration="20000" />
+      <workItem from="1570537231888" duration="2513000" />
+      <workItem from="1570604830739" duration="1671000" />
+      <workItem from="1570696353491" duration="14000" />
+      <workItem from="1571163871432" duration="762000" />
+      <workItem from="1571210282230" duration="424000" />
+      <workItem from="1571213924260" duration="424000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
