@@ -43,9 +43,10 @@ public class PostPage extends Page {
     @PostMapping("/post/{id}")
     public String writePostPost(@PathVariable Long id, @Valid @ModelAttribute("comment") Comment comment,
                                 BindingResult bindingResult,
-                                HttpSession httpSession) {
+                                HttpSession httpSession, Model model) {
         if (bindingResult.hasErrors()) {
-            return "/post/" + id.toString();
+            model.addAttribute("post", postService.findById(id));
+            return "PostPage";
         }
         Post post = postService.findById(id);
         postService.writeComment(comment, post, getUser(httpSession));
