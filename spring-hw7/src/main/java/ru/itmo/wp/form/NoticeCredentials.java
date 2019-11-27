@@ -8,7 +8,7 @@ import javax.validation.constraints.Size;
 public class NoticeCredentials {
     @NotNull
     @NotEmpty
-    @Size(min = 1, max = 65000)
+    @Size(min = 10, max = 65000)
     private String content;
 
     public String getContent() {

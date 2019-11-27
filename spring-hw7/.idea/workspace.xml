@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a10824-a272-49e3-b9a1-4bbd8fb1c43a" name="Default Changelist" comment="" />
+    <list default="true" id="12a10824-a272-49e3-b9a1-4bbd8fb1c43a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../mappings-spring-hw8/src/main/java/ru/itmo/wp/controller/PostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mappings-spring-hw8/src/main/java/ru/itmo/wp/controller/PostPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mappings-spring-hw8/src/main/java/ru/itmo/wp/domain/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mappings-spring-hw8/src/main/java/ru/itmo/wp/domain/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mappings-spring-hw8/target/classes/ru/itmo/wp/controller/PostPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mappings-spring-hw8/target/classes/ru/itmo/wp/controller/PostPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mappings-spring-hw8/target/classes/ru/itmo/wp/controller/WritePostPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mappings-spring-hw8/target/classes/ru/itmo/wp/controller/WritePostPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/EnterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/EnterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/NoticePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/NoticePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/NoticeCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/NoticeCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/NoticePage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/NoticePage.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/commons.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/commons.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/wp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/EnterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/EnterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/NoticePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/NoticePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/UserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/controller/UserPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/NoticeCredentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/NoticeCredentials.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/itmo/wp/form/validator/UserCredentialsEnterValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/NoticePage.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/NoticePage.ftlh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1TvO7WfBScIaTxeBMVqQyJYh4Wr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -16,7 +40,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ajax-hw6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mappings-spring-hw8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,10 +97,36 @@
       <workItem from="1574364006141" duration="4411000" />
       <workItem from="1574436850362" duration="1691000" />
       <workItem from="1574439147160" duration="9895000" />
+      <workItem from="1574793639220" duration="273000" />
+      <workItem from="1574838880997" duration="2683000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/itmo/wp/controller/NoticePage.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

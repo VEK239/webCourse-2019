@@ -17,8 +17,14 @@ public class UserPage extends Page {
         this.userService = userService;
     }
 
-    @GetMapping("user/{id}")
-    public String userGet(Model model, @PathVariable long id) {
+    @GetMapping("user/{StId}")
+    public String userGet(Model model, @PathVariable String StId) {
+        Long id;
+        try {
+            id = Long.parseLong(StId);
+        } catch (Exception e) {
+            return "UserPage";
+        }
         User user = userService.findById(id);
         if (user != null) {
             model.addAttribute("userForPage", user);

@@ -37,9 +37,9 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/users/all">Users</a></li>
-<#--            <#if user??>-->
+            <#if user??>
                 <li><a href="/notice">Create notice</a></li>
-<#--            </#if>-->
+            </#if>
         </ul>
     </nav>
 </header>

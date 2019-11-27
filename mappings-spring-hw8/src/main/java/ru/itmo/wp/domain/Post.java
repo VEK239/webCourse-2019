@@ -51,6 +51,7 @@ public class Post {
             joinColumns = @JoinColumn(name = "post_id"),
             inverseJoinColumns = @JoinColumn(name = "tag_id")
     )
+    @OrderBy("creationTime asc")
     private Set<Tag> tags;
 
     @CreationTimestamp

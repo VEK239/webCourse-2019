@@ -46,12 +46,8 @@ public class EnterPage extends Page {
         }
 
         User user = userService.findByLoginAndPassword(enterForm.getLogin(), enterForm.getPassword());
-        if (user.isEnabled()) {
-            setUser(httpSession, user);
-            putMessage(httpSession, "Hello, " + getUser(httpSession).getLogin());
-        } else {
-            putMessage(httpSession, "User " + user.getLogin() + " is disabled!");
-        }
+        setUser(httpSession, user);
+        putMessage(httpSession, "Hello, " + getUser(httpSession).getLogin());
         return "redirect:/";
     }
 }

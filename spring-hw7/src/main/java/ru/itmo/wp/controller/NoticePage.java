@@ -35,11 +35,16 @@ public class NoticePage extends Page {
     @PostMapping("/notice")
     public String registerPost(@Valid @ModelAttribute("noticeForm") NoticeCredentials noticeForm,
                                BindingResult bindingResult, HttpSession httpSession) {
-        if (bindingResult.hasErrors()) {
-            return "RegisterPage";
+        if (getUser(httpSession) != null) {
+            if (bindingResult.hasErrors()) {
+                return "NoticePage ";
+            }
+            noticeService.makeNotice(noticeForm);
+            putMessage(httpSession, "Congrats, a notice has been posted!");
+            return "redirect:/";
+        } else {
+            putMessage(httpSession, "You are not logged in!");
+            return "redirect:/";
         }
-        noticeService.makeNotice(noticeForm);
-        putMessage(httpSession, "Congrats, a notice has been posted!");
-        return "redirect:/";
     }
 }

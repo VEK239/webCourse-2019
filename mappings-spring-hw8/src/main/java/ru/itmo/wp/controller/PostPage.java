@@ -45,7 +45,7 @@ public class PostPage extends Page {
                                 BindingResult bindingResult,
                                 HttpSession httpSession) {
         if (bindingResult.hasErrors()) {
-            return "PostPage";
+            return "/post/" + id.toString();
         }
         Post post = postService.findById(id);
         postService.writeComment(comment, post, getUser(httpSession));

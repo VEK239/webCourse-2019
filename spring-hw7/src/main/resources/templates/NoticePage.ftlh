@@ -10,9 +10,7 @@
                 <input type="hidden" name="action" value="notice"/>
                 <div class="field">
                     <div class="value">
-                        <textarea rows="10" cols="70" maxlength="65535" id="content" name="content" autofocus>
-                            ${noticeForm.content!}
-                        </textarea>
+                        <textarea rows="10" cols="70" maxlength="65535" id="content" name="content">${noticeForm.content!}</textarea>
                     </div>
                     <@c.error "noticeForm.content"/>
                 </div>
