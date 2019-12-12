@@ -83,7 +83,7 @@
                     $(".datatable form").submit(function () {
                         var $error = $(this).find(".error");
                         var value = $(this).find("input[type='submit']").val();
-                        var userId = $(this).find("input[type='submit']").closest("tr").find("td")[0].innerHTML;
+                        var userId = $(this).find("input[type='submit']").closest("tr").data('userId');
                         myAjax({data: { action: "changeAdmin", changingId: userId, valueToPut: value === "Make admin"}}, $error);
                         $(this).find("input[type='submit']").val(value === "Make admin" ? "Make not admin" : "Make admin");
                         $(this).find(".isAdmin").text(value === "Make admin" ? "Is admin" : "Not admin");

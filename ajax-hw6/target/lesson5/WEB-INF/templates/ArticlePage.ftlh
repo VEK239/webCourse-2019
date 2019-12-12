@@ -50,7 +50,7 @@
                 var $error = $(this).find(".error");
                 if (myAjax({data: {action: "create", title: title, text: text}}, $error)) {
                     // $error.text("Created successfully!");
-                    notify("Created successfully!");
+                    // notify("Created successfully!");
                     // text.val('');
                     // title.val('');
                 }

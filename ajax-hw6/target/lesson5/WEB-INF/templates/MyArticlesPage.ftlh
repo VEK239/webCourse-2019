@@ -14,7 +14,7 @@
             <thead>
             <tr>
                 <th>Id</th>
-                <th>Login</th>
+                <th>Article name</th>
                 <th>Change publicity</th>
             </tr>
             </thead>

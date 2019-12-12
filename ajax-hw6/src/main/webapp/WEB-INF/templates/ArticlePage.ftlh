@@ -48,12 +48,7 @@
                 var title = $(this).find("input[name='title']").val();
                 var text = $(this).find("textarea[name='text']").val();
                 var $error = $(this).find(".error");
-                if (myAjax({data: {action: "create", title: title, text: text}}, $error)) {
-                    // $error.text("Created successfully!");
-                    notify("Created successfully!");
-                    // text.val('');
-                    // title.val('');
-                }
+                myAjax({data: {action: "create", title: title, text: text}}, $error);
                 return false;
             });
         })
